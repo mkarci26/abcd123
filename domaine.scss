@@ -1,0 +1,23 @@
+$aetna-domaine-display-name: 'Domaine Display' !default;
+$aetna-domaine-text-name: 'Domaine Text' !default;
+$aetna-domaine-dir: './domaine' !default;
+
+@font-face {
+  font-family: #{$aetna-domaine-display-name};
+  font-weight: 700;
+  src: local('Domaine Display'), local('DomaineDisplay'),
+  url("#{$aetna-domaine-dir}/DomaineDisplay-Bold.eot?#iefix") format("embedded-opentype"),
+  url("#{$aetna-domaine-dir}/DomaineDisplay-Bold.woff2") format("woff2"),
+  url("#{$aetna-domaine-dir}/DomaineDisplay-Bold.woff") format("woff"),
+  url("#{$aetna-domaine-dir}/DomaineDisplay-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: #{$aetna-domaine-text-name};
+  font-weight: 700;
+  src: local('Domaine Text'), local('DomaineText'),
+  url("#{$aetna-domaine-dir}/DomaineText-Bold.eot?#iefix") format("embedded-opentype"),
+  url("#{$aetna-domaine-dir}/DomaineText-Bold.woff2") format("woff2"),
+  url("#{$aetna-domaine-dir}/DomaineText-Bold.woff") format("woff"),
+  url("#{$aetna-domaine-dir}/DomaineText-Bold.ttf") format("truetype");
+}

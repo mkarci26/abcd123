@@ -1,0 +1,12 @@
+{
+  "name": "@aetna/fonts",
+  "version": "0.2.0",
+  "author": "We are Friday",
+  "description": "Aetna Font Library",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://git.wearefriday.com/projects/AETNA/repos/aetna-fonts.git"
+  },
+  "license": "MIT"
+}

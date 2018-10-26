@@ -1,0 +1,15 @@
+$aetna-open-sans-name: 'Open Sans' !default;
+$aetna-open-sans-dir: './open-sans' !default;
+
+@mixin generateOpenSansVariant($variant, $weight, $style: normal) {
+  @font-face {
+    font-family: #{$aetna-open-sans-name};
+    font-style: $style;
+    font-weight: $weight;
+    src: local('Open Sans #{$variant}'), local('OpenSans-#{$variant}'),
+    url("#{$aetna-open-sans-dir}/OpenSans-#{$variant}.eot?#iefix") format("embedded-opentype"),
+    url("#{$aetna-open-sans-dir}/OpenSans-#{$variant}.woff2") format("woff2"),
+    url("#{$aetna-open-sans-dir}/OpenSans-#{$variant}.woff") format("woff"),
+    url("#{$aetna-open-sans-dir}/OpenSans-#{$variant}.ttf") format("truetype");
+  }
+}
